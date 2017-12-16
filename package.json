@@ -1,0 +1,28 @@
+{
+  "name": "try-njs",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "bcrypt": "^1.0.3",
+    "chance": "^1.0.12",
+    "crypto": "^1.0.1",
+    "koa-router": "^7.3.0",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.13.7",
+    "mongoose-plugins": "git+https://7halo.codebasehq.com/nascence/mongoose-plugins.git",
+    "njs": "git+https://7halo.codebasehq.com/nascence/njs3.git",
+    "validator": "^9.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "nodemon": "^1.13.2"
+  }
+}
